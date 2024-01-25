@@ -26,7 +26,7 @@ import WorkoutMetricsView from '../views/WorkoutMetricsView.vue'
 import MachineMetricsView from '../views/MachineMetricsView.vue'
 import MemberMetricsView from '../views/MemberMetricsView.vue'
 import AllMemberMetricsView from '../views/AllMemberMetricsView.vue'
-
+import GraduationView from '../views/GraduationView.vue'
 
 /**
  * The Vue Router is used to "direct" the browser to render a specific view component
@@ -42,7 +42,7 @@ const routes = [
     name: 'home',
     component: HomeView,
     meta: {
-      requiresAuth: true
+      requiresAuth: false
     }
   },
   {
@@ -173,6 +173,15 @@ const routes = [
     path: '/all-member-metrics',
     name: 'all-member-metrics',
     component: AllMemberMetricsView,
+  },
+
+  {
+    path: '/graduation',
+    name: 'graduation',
+    component: GraduationView,
+    meta: {
+      requiresAuth: false
+    }
   }
 
   // {

@@ -67,7 +67,6 @@ export default {
 };
 </script>
 
-
 <style scoped>
 .center-content {
     display: flex;
@@ -87,6 +86,7 @@ body {
 img {
     max-width: 500px;
 }
+
 
 .header-logo {
     width: 200px;
@@ -121,5 +121,6 @@ img {
   text-align: center;
 
 }
+
 
 </style>

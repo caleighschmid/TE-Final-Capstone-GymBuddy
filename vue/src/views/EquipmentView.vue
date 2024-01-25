@@ -201,7 +201,7 @@ export default {
 }
 
 .machine-image {
-    max-width: 350px;
+    max-width: 249px;
 }
 
 .machine-image {

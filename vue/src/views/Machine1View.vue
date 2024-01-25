@@ -126,6 +126,7 @@ img {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: rgb(192, 194, 192);
     box-shadow: 0 0 10px rgba(20, 20, 20, 0.884);
+    width: 325px;
     padding: 20px;
     /* Add padding on all sides */
     margin: 20px;
@@ -140,5 +141,9 @@ img {
   justify-content: center;
   text-align: center;
 
+}
+
+form {
+    
 }
 </style>

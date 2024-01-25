@@ -10,6 +10,9 @@
                 <br>
                 <br>
                 <button type="submit">Fetch Visit Metrics</button>
+                <div>
+                <button id="grad-button" @click="goToGraduation">???</button>
+            </div>
             </form>
             <br>
             <table>
@@ -159,6 +162,10 @@ export default {
             const seconds = Math.floor((duration % 60000) / 1000);
             return `${hours}:${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
         },
+
+        goToGraduation() {
+            this.$router.push('/graduation');
+        },
         goToUserDashboard() {
             const userRole = this.$store.state.user.authorities[0].name;
             if (userRole === 'ROLE_ADMIN') {
@@ -229,6 +236,13 @@ h1, h2 {
 .main-section{
     text-align: center;
     align-items: center;
+}
+
+#grad-button{
+
+background-color: red;
+margin: 12px;
+
 }
 
 table {

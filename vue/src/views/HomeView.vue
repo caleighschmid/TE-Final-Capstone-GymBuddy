@@ -11,7 +11,7 @@
    -->
 
     <body>
-      <header>
+      <header id="home-header">
 
         <h1>Are you ready to get started?</h1>
 
@@ -49,7 +49,7 @@
       </div>
       <div class="w3-row">
         <div class="w3-half w3-container">
-          <h1 class="w3-xxlarge w3-text-grey">Hello</h1>
+          <!-- <h1 class="w3-xxlarge w3-text-grey">Hello</h1> -->
           <h1 class="w3-xxlarge w3-text-grey">Welcome to</h1>
           <h1 class="w3-jumbo" style="background-color: rgba(241, 205, 4, 0.712);">Gym Buddy!</h1>
           <h2 class="w3-xxlarge w3-text-grey" style="text-decoration-color: rgba(241, 205, 4, 0.712);">Your Fitness
@@ -58,7 +58,7 @@
         </div>
         <div class="w3-half w3-container w3-xlarge w3-text-grey">
           <p class="">EMBRACE A #NOJUDGMENTS PHILOSOPHY</p>
-          <p>We are nurturers: we seek only to encourage, entertain, and empower.</p>
+          <p id="blue-square">We are nurturers: we seek only to encourage, entertain, and empower.</p>
 
 
 
@@ -145,7 +145,9 @@ export default {
 #home-header {
   height: 125px;
   margin: 0px;
+  padding: 0px;
   border: 0px;
+  border-radius: 30px;
 }
 h1 {
   font-size: 36px;
